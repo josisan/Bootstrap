@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+    <style>
+        .row div{
+            background: #f2f2f2;
+            margin: 10px 0;
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Primera regla de bootstrap es que todo nuestro contenido lo tenemos que encerrar dentro de contenedores -->
+    <div class="container">
+        <!--Segunda regla de bootstrap es que tenemos que poner dentro de un contenedor lo que son filas -->
+        <div class="row">
+            <!-- dentro de las filas tenemos que poner columnas -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <h1>Articulo 1</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid optio excepturi voluptatum laudantium omnis provident doloremque possimus? Laudantium laborum doloremque deserunt ipsa harum id inventore Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, molestiae inventore totam odit veniam animi adipisci ea cumque aliquam, fugiat, error perspiciatis officiis officia modi?.</p>
+                <button class="btn btn-primary">Comprar</button>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <h1>Articulo 2</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid optio excepturi voluptatum laudantium omnis provident doloremque possimus? Laudantium laborum doloremque deserunt ipsa harum id inventore Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, molestiae inventore totam odit veniam animi adipisci ea cumque aliquam, fugiat, error perspiciatis officiis officia modi?.</p>
+                <button class="btn btn-primary">Comprar</button>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-4">
+                <h1>Articulo 3</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid optio excepturi voluptatum laudantium omnis provident doloremque possimus? Laudantium laborum doloremque deserunt ipsa harum id inventore Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, molestiae inventore totam odit veniam animi adipisci ea cumque aliquam, fugiat, error perspiciatis officiis officia modi?.</p>
+                <button class="btn btn-primary">Comprar</button>
+            </div>
+            <div class="col-12">
+                <h1>Articulo 4</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid optio excepturi voluptatum laudantium omnis provident doloremque possimus? Laudantium laborum doloremque deserunt ipsa harum id inventore Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, molestiae inventore totam odit veniam animi adipisci ea cumque aliquam, fugiat, error perspiciatis officiis officia modi?.</p>
+                <button class="btn btn-primary">Comprar</button>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
